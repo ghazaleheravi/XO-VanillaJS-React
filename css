@@ -1,0 +1,108 @@
+
+          body {
+            background-color: rgba(95, 158, 160,0.20);
+            font-style:normal ;
+            font-size: 80px;
+            text-align: center;
+            }
+
+          p {
+            background-color: cadetblue; 
+            width: 600px;
+            height: 600px; 
+            margin-left: 600px;
+            margin-top: 100px;
+            padding-bottom: 15px;
+            position: absolute;
+           }
+
+          div {
+            width: 100px ;
+            height: 100px;
+            background-color: rgba(95, 158, 160,0.20);
+            align-content: center;
+            position: relative;
+            left: 135px;
+            top: 135px;
+            }
+
+          #div0 {
+            display: table-cell;
+            border-right: 5px solid black;
+            border-left:5px solid black;  
+            border-top: 5px solid black;
+       
+            }
+
+          #div1 {
+            display: table-cell;
+            border-right: 5px solid black;
+            border-top: 5px solid black;
+            }
+
+          #div2 {
+            display: table-cell;
+            border-right: 5px solid black;
+            border-top: 5px solid black;
+            }  
+
+          #div3 { 
+            display:table-row-group;
+            border-right: 5px solid black;
+            border-top: 5px solid black;
+            } 
+
+          #div4 {
+            display: table-cell;
+            border-right: 5px solid black;
+            border-top: 5px solid black;
+            border-left: 5px solid black;
+            }
+
+          #div5 {
+            display: table-cell;
+            border-right: 5px solid black;
+            border-top: 5px solid black;
+            }
+ 
+          #div6 {
+            display: table-cell;
+            border-right: 5px solid black;
+            border-top: 5px solid black;
+            }
+
+          #div7 {
+            display: table-row-group;
+            border-right: 5px solid black;
+            border-top: 5px solid black;
+            }
+
+          #div8 {
+            display: table-cell;
+            border-right: 5px solid black;
+            border-top: 5px solid black;
+            border-left: 5px solid black ;
+            border-bottom: 5px solid black; 
+            }
+
+           #div9 {
+            display: table-cell;
+            border-right: 5px solid black;
+            border-top: 5px solid black;
+            border-bottom: 5px solid black; 
+           } 
+
+           #div10 {
+            display: table-cell;
+            border-right: 5px solid black;
+            border-top: 5px solid black;
+            border-bottom: 5px solid black;
+           }
+
+           button {
+              position: relative;
+              top: 500px;
+              padding: 5px;
+              border-radius: 4px;
+           }
+             
