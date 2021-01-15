@@ -1,19 +1,20 @@
-
-          body {
+ body {
             background-color: rgba(95, 158, 160,0.20);
             font-style:normal ;
             font-size: 80px;
             text-align: center;
+            position: absolute;
             }
 
           p {
-            background-color: cadetblue; 
+            background-color: rgba(95, 158, 160,0.20); 
             width: 600px;
             height: 600px; 
             margin-left: 600px;
             margin-top: 100px;
             padding-bottom: 15px;
-            position: absolute;
+            border-radius: 15px;
+           
            }
 
           div {
@@ -28,81 +29,93 @@
 
           #div0 {
             display: table-cell;
-            border-right: 5px solid black;
-            border-left:5px solid black;  
-            border-top: 5px solid black;
+            border-right: 5px solid  cadetblue;
+            border-left:5px solid cadetblue;  
+            border-top: 5px solid cadetblue;
+            border-radius: 5px;
+
        
             }
 
           #div1 {
             display: table-cell;
-            border-right: 5px solid black;
-            border-top: 5px solid black;
+            border-right: 5px solid  cadetblue;
+            border-top: 5px solid cadetblue;
             }
 
           #div2 {
             display: table-cell;
-            border-right: 5px solid black;
-            border-top: 5px solid black;
+            border-right: 5px solid  cadetblue;
+            border-top: 5px solid  cadetblue;
+            border-radius: 5px;
             }  
 
           #div3 { 
             display:table-row-group;
-            border-right: 5px solid black;
-            border-top: 5px solid black;
+            border-right: 5px solid  cadetblue;
+            border-top: 5px solid  cadetblue;
+            border-radius: 5px;
             } 
 
           #div4 {
             display: table-cell;
-            border-right: 5px solid black;
-            border-top: 5px solid black;
-            border-left: 5px solid black;
+            border-right: 5px solid  cadetblue;
+            border-top: 5px solid  cadetblue;
+            border-left: 5px solid  cadetblue;
+            border-radius: 5px;
             }
 
           #div5 {
             display: table-cell;
-            border-right: 5px solid black;
-            border-top: 5px solid black;
+            border-right: 5px solid  cadetblue;
+            border-top: 5px solid  cadetblue;
             }
  
           #div6 {
             display: table-cell;
-            border-right: 5px solid black;
-            border-top: 5px solid black;
+            border-right: 5px solid  cadetblue;
+            border-top: 5px solid  cadetblue;
+            border-radius: 5px;
             }
 
           #div7 {
             display: table-row-group;
-            border-right: 5px solid black;
-            border-top: 5px solid black;
+            border-right: 5px solid  cadetblue;
+            border-top: 5px solid  cadetblue;
+            border-radius: 5px;
             }
 
           #div8 {
             display: table-cell;
-            border-right: 5px solid black;
-            border-top: 5px solid black;
-            border-left: 5px solid black ;
-            border-bottom: 5px solid black; 
+            border-right: 5px solid  cadetblue;
+            border-top: 5px solid  cadetblue;
+            border-left: 5px solid  cadetblue ;
+            border-bottom: 5px solid  cadetblue; 
+            border-radius: 5px;
             }
 
            #div9 {
             display: table-cell;
-            border-right: 5px solid black;
-            border-top: 5px solid black;
-            border-bottom: 5px solid black; 
+            border-right: 5px solid cadetblue;
+            border-top: 5px solid  cadetblue;
+            border-bottom: 5px solid  cadetblue;
+            border-radius: 5px; 
            } 
 
            #div10 {
             display: table-cell;
-            border-right: 5px solid black;
-            border-top: 5px solid black;
-            border-bottom: 5px solid black;
+            border-right: 5px solid  cadetblue;
+            border-top: 5px solid  cadetblue;
+            border-bottom: 5px solid cadetblue;
+            border-radius: 5px;
            }
 
            button {
               position: relative;
-              top: 500px;
-              padding: 5px;
-              border-radius: 4px;
+              bottom:130px;
+              left: 300px;
+              padding: 10px;
+              border-radius: 15px;
+              width: 600px;
            }
              
