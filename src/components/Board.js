@@ -1,7 +1,7 @@
 import React from 'react';
 import { useState } from 'react';
 import Square from './Square';
-import TicTacToe from './TicTacToe';
+
 
 function Board(props) {
   const [square, setSquare] = useState({});
